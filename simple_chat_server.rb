@@ -1,6 +1,6 @@
 require 'em-websocket'
 require 'json'
-require './user'
+require_relative 'user'
 
 $connections = []
 
